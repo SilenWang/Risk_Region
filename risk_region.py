@@ -1,9 +1,4 @@
-    # -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 16 11:30:41 2021
-
-@author: roselily
-"""
+# -*- coding: utf-8 -*-
 
 import os, json, time, requests, hashlib
 from datetime import datetime

@@ -7,3 +7,4 @@ mongod \
     --logappend
 
 # 启动服务
+python risk_region.py
