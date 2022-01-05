@@ -79,8 +79,8 @@ def comparsion(latest, former):
     return a dataframe 
     '''
     # High-risk
-    risk1 = former['data']['highlist']
-    risk2 = latest['data']['highlist']
+    risk1 = former['highlist']
+    risk2 = latest['highlist']
     # Removing duplications
     if len(risk1)==len(risk2)==0:
         high_flag = 0
@@ -89,8 +89,8 @@ def comparsion(latest, former):
         shift1['level'] = "high"
     
     # Mid-risk
-    risk1 = former['data']['middlelist']
-    risk2 = latest['data']['middlelist']
+    risk1 = former['middlelist']
+    risk2 = latest['middlelist']
     # Removing duplications
     if len(risk1)==len(risk2)==0:
         middle_flag = 0
