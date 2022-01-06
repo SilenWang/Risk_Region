@@ -81,6 +81,7 @@ def comparsion(latest, former):
     # High-risk
     risk1 = former['highlist']
     risk2 = latest['highlist']
+    high_flag = 1
     # Removing duplications
     if len(risk1)==len(risk2)==0:
         high_flag = 0
@@ -91,6 +92,7 @@ def comparsion(latest, former):
     # Mid-risk
     risk1 = former['middlelist']
     risk2 = latest['middlelist']
+    middle_flag = 1
     # Removing duplications
     if len(risk1)==len(risk2)==0:
         middle_flag = 0
